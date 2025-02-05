@@ -1,0 +1,150 @@
+:root {
+    /* Light Theme (default) */
+    --bg-color: #ffffff;
+    --text-color: #1F2328;
+    --primary-color: #2f81f7;
+    --secondary-color: #656d76;
+    --border-color: #d0d7de;
+    --card-bg: #f6f8fa;
+    --shadow: 0 8px 24px rgba(140,149,159,0.2);
+    --skill-bg: #ddf4ff;
+    --skill-text: #0969da;
+  }
+  
+  [data-theme="dark"] {
+    /* Dark Theme */
+    --bg-color: #0d1117;
+    --text-color: #c9d1d9;
+    --primary-color: #58a6ff;
+    --secondary-color: #8b949e;
+    --border-color: #30363d;
+    --card-bg: #161b22;
+    --shadow: 0 8px 24px rgba(1,4,9,0.8);
+    --skill-bg: rgba(56,139,253,0.15);
+    --skill-text: #58a6ff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 3px solid var(--primary-color);
+    box-shadow: var(--shadow);
+  }
+  
+  .subtitle {
+    color: var(--secondary-color);
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .section {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--primary-color);
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skill-badge {
+    background: var(--skill-bg);
+    color: var(--skill-text);
+    padding: 0.4rem 0.8rem;
+    border-radius: 2em;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: 1px solid var(--border-color);
+  }
+  
+  .experience-item, .education-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+  }
+  
+  .date {
+    color: var(--secondary-color);
+    font-size: 0.9em;
+    margin: 0.3rem 0;
+  }
+  
+  .contact-info p {
+    margin: 0.3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+  }
+  
+  /* Theme Toggle */
+  .theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .theme-toggle:hover {
+    border-color: var(--primary-color);
+  }
