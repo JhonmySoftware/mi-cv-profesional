@@ -204,3 +204,16 @@
   padding: 10px 20px;
   /* Asegúrate que coincida con download-button */
 }
+
+#loading-indicator {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  border-radius: 5px;
+  z-index: 9999;
+}
