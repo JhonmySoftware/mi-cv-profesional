@@ -1,4 +1,4 @@
-# Jhon Quiñones Arboleda - Hoja de Vida
+# Jhon Quiñones Arboleda
 
 Soy **Ingeniero de Software** con experiencia en **automatización de pruebas** y **gestión de calidad de software**. Actualmente, me desempeño como **QA Automation Engineer** y tengo una sólida formación en **Ciberseguridad** y **Gestión de Proyectos Informáticos**. Mi objetivo es siempre entregar software de calidad y ayudar a equipos a mejorar sus procesos mediante la automatización y las mejores prácticas.
 
