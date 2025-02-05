@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Jhon Quiñones Arboleda</title>
     <link rel="stylesheet" href="src/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
+
+<div id="cv-content">
 <body>
     <header class="header">
         <img src="src/assets/img/foto-perfil.jpg" alt="Foto de Jhon Quiñones Arboleda" class="profile-photo">
@@ -17,8 +21,7 @@
             <p>✉️ <a href="mailto:jhonquinonesarboleda@gmai.com">jhonquinonesarboleda@gmail.com</a></p>
             <p>🔗 <a href="https://www.linkedin.com/in/jquinonesa0001/" target="_blank">LinkedIn</a></p>
             <p>💻 <a href="https://github.com/JhonmySoftware" target="_blank">GitHub</a></p>
-        </div>
-    </header>   
+    </header>
     <section class="section">
         <h2>🛠️ Habilidades Técnicas</h2>
         <div class="skills">
@@ -42,9 +45,12 @@
 
     <section class="section">
         <h2><strong>💻 Soft Skills</strong></h2>
-        <p>Ingeniero de Software con experiencia en automatización de pruebas utilizando frameworks como Selenium, Serenity y Cypress, y manejo de lenguajes como Java, Python y C#. Conocimiento en metodologías ágiles y gestión de pruebas con herramientas como Azure y Jira.</p>
-        <p>Estudios en Gerencia de Proyectos Informáticos y Seguridad Informática. Me destaco por mi actitud, responsabilidad, pensamiento analítico y capacidad de trabajo en equipo.</p>
-    </section> 
+        <p>Ingeniero de Software con experiencia en automatización de pruebas utilizando frameworks como Selenium,
+            Serenity y Cypress, y manejo de lenguajes como Java, Python y C#. Conocimiento en metodologías ágiles y
+            gestión de pruebas con herramientas como Azure y Jira.</p>
+        <p>Estudios en Gerencia de Proyectos Informáticos y Seguridad Informática. Me destaco por mi actitud,
+            responsabilidad, pensamiento analítico y capacidad de trabajo en equipo.</p>
+    </section>
 
     <section class="section">
         <h2>💼 Experiencia Laboral</h2>
@@ -52,7 +58,8 @@
             <h3>Profesional III Automatización Certificación Técnica - Banco Davivienda</h3>
             <p class="date">Dic. 2023 - Actualidad</p>
             <ul>
-                <li>Automatización de procesos utilizando el framework del banco en diversos entornos, como web, móvil, APIs, Stratus y AS400.</li>
+                <li>Automatización de procesos utilizando el framework del banco en diversos entornos, como web, móvil,
+                    APIs, Stratus y AS400.</li>
                 <li>Gestión de pruebas técnicas en un entorno híbrido.</li>
             </ul>
         </div>
@@ -60,31 +67,41 @@
             <h3>Analista de Pruebas Senior - Infotrack S.A.S</h3>
             <p class="date">Feb. 2023 - Dic. 2023</p>
             <ul>
-                <li>Automatización de pruebas utilizando Serenity BDD, patrones de diseño, pruebas de servicios con SoapUI y Postman, y pruebas de concurrencia con JMeter.</li>
-                <li>Desarrollo y ejecución de casos de prueba automatizados para garantizar la calidad del software.</li>
-                <li>Planificación y ejecución de pruebas funcionales para asegurar el correcto funcionamiento de las aplicaciones.</li>                
+                <li>Automatización de pruebas utilizando Serenity BDD, patrones de diseño, pruebas de servicios con
+                    SoapUI y Postman, y pruebas de concurrencia con JMeter.</li>
+                <li>Desarrollo y ejecución de casos de prueba automatizados para garantizar la calidad del software.
+                </li>
+                <li>Planificación y ejecución de pruebas funcionales para asegurar el correcto funcionamiento de las
+                    aplicaciones.</li>
             </ul>
         </div>
         <div class="experience-item">
             <h3>Analista de Pruebas de Software - Choucair Testing S.A.</h3>
             <p class="date">Feb. 2022 - Feb. 2023</p>
             <ul>
-                <li>Automatización de pruebas con Java y patrones de diseño POM, con experiencia en la implementación en proyectos ágiles y tradicionales.</li>
-                <li>Trabajo colaborativo en equipo para mejorar la calidad del software entregado, aplicando metodologías de trabajo como Scrum, Agile y tradicionales a lo largo del ciclo completo del ciclo de vida de las pruebas.</li>                
+                <li>Automatización de pruebas con Java y patrones de diseño POM, con experiencia en la implementación en
+                    proyectos ágiles y tradicionales.</li>
+                <li>Trabajo colaborativo en equipo para mejorar la calidad del software entregado, aplicando
+                    metodologías de trabajo como Scrum, Agile y tradicionales a lo largo del ciclo completo del ciclo de
+                    vida de las pruebas.</li>
             </ul>
         </div>
         <div class="experience-item">
             <h3>Analista Calidad Funcional QA - Inter Rapidísimo</h3>
             <p class="date">Ene. 2021 - Feb. 2022</p>
             <ul>
-                <li>Gestión de pruebas y aseguramiento de la calidad de software en entornos funcionales, aplicando metodologías ágiles como Scrum, Agile y enfoques tradicionales a lo largo del ciclo completo de vida de las pruebas.</li>
+                <li>Gestión de pruebas y aseguramiento de la calidad de software en entornos funcionales, aplicando
+                    metodologías ágiles como Scrum, Agile y enfoques tradicionales a lo largo del ciclo completo de vida
+                    de las pruebas.</li>
             </ul>
         </div>
         <div class="experience-item">
             <h3>Líder de Accesos - Inter Rapidísimo</h3>
             <p class="date">May. 2016 - Ene. 2021</p>
             <ul>
-                <li>Gestión de accesos lógicos, administración de sistemas de información y aplicaciones, coordinación de equipos internos, y asignación de roles y permisos, asegurando el control adecuado de accesos en el entorno corporativo y la protección de la información sensible.</li>
+                <li>Gestión de accesos lógicos, administración de sistemas de información y aplicaciones, coordinación
+                    de equipos internos, y asignación de roles y permisos, asegurando el control adecuado de accesos en
+                    el entorno corporativo y la protección de la información sensible.</li>
             </ul>
         </div>
     </section>
@@ -112,9 +129,18 @@
             <p class="date">2015 - 2016</p>
         </div>
     </section>
-    <button class="theme-toggle" onclick="toggleTheme()">
-        <span>🌓</span> Tema
-    </button>
+    <!-- Botones flotantes -->
+    <div class="button-container">
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span>🌓</span> Tema
+        </button>
+        <button class="download-button" id="generatePDF">
+            📄 Descargar CV
+        </button>
+    </div>
+
     <script src="src/assets/js/theme-toggle.js"></script>
+    <script src="src/assets/js/download.js"></script>
 </body>
+
 </html>

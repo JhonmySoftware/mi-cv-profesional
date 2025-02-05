@@ -148,3 +148,59 @@
   .theme-toggle:hover {
     border-color: var(--primary-color);
   }
+
+  /* Botón de descarga PDF */
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor de botones */
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+/* Botón de descarga PDF */
+.download-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Mantén el estilo existente del botón de tema */
+.theme-toggle {
+  /* Tus estilos actuales aquí */
+  padding: 10px 20px;
+  /* Asegúrate que coincida con download-button */
+}
